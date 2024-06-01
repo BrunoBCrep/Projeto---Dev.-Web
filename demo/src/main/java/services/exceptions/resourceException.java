@@ -1,0 +1,9 @@
+package com.seu_projeto.services.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+    private static final long serialVersionUID = 1L;
+
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
